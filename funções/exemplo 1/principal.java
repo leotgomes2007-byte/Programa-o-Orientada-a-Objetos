@@ -1,0 +1,26 @@
+package projeto;
+
+import java.util.Scanner;
+
+public class principal {
+
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		carro c = new carro();
+		
+		System.out.println("Digite a marca do carro:");
+		c.marca = teclado.nextLine();
+		
+		System.out.println("Digite o modelo do carro:");
+		c.modelo = teclado.nextLine();
+
+		c.alugar();
+		c.devolver();
+		c.exibirDados();
+		
+		
+	}
+
+}
