@@ -1,0 +1,24 @@
+package skg;
+
+import java.util.Scanner;
+
+public class disciplina {
+
+	public static void main(String[] args) {
+
+		Scanner teclado = new Scanner(System.in);
+		
+		laboratorio l1 = new laboratorio();
+		professor p1 = new professor();
+		
+		System.out.println("informe o professor:");
+		p1.nome = teclado.nextLine();
+		System.out.println("informe o laboratorio:");
+		l1.local = teclado.nextLine();
+		
+		System.out.println("O nome do professor é:"+ p1.nome);
+		System.out.println("o local da aula é:"+l1.local);
+
+	}
+
+}
