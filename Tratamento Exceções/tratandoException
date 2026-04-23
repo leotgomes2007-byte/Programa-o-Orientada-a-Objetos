@@ -1,0 +1,46 @@
+package project;
+
+public class tratandoException {
+
+	public static void main(String[] args) {
+//		TRATANDO O PRIMEIRO EXEMPLO:
+//			try {
+//			int [] numeros = {1,2,3};
+//			System.out.println("Numero[3]");
+//		} catch(Exception e) {
+//			System.out.println("Exceção:"+e.toString());
+//		}
+//		System.out.println("NÂO DEU FATAL ERROR");
+		
+		
+//		outra forma de tratar a exceção 1
+//		try {
+//			int [] numeros = {1,2,3};
+//			System.out.println("numero[3]");
+//		} catch (ArrayIndexOutOfBoundsException e) {
+//			System.out.println("Erro:indice fora doa array\n"+e.getMessage());
+//		}catch(Exception e) {
+//			System.out.println("Exceção:"+ e.toString());
+//		}
+//		
+		
+//		TRATANDO A EXCEÇÂO 2:
+//		int a= 10;
+//		int b = 0;
+//		
+//		try {
+//		System.out.println("a/b");//arithmeticException
+//		} catch (ArithmeticException e) {
+//			System.out.println("ERRO ARITMEDICO");
+//		}
+		
+//		//TRATANDO EXCEÇÂO 3:
+//		String numero = "abc";
+//		try {
+//			int valor = Integer.parseInt(numero);//numberFormaException
+//		} catch (NumberFormaException e) {
+//			System.out.println("Exceção de formato de numero");
+//		}
+	}
+
+}
