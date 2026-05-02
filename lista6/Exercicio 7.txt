@@ -1,0 +1,15 @@
+Exercicio 7:
+
+1. IOException
+
+O que é: são falhas de entrada e saída de dados
+
+Como Tratar: Use a exceção try-with-resources no try/catch
+
+
+2. NullPointerException (NPE) 
+
+
+O que é: Ocorre quando tenta referenciar um objeto que aponta pra NULL
+
+Como Tratar: O tratamento comum envolve verificações condicionais (if (objeto != null))Use a exceção try-with-resources no try/catch
