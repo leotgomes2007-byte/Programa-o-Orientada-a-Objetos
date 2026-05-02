@@ -1,0 +1,48 @@
+1)a) Classe:Uma classe é uma estrutura que abstrai um conjunto de objetos com características similares.
+Ela funciona como um "molde" ou representação de um conjunto de objetos, descrevendo suas características e funcionalidades
+
+b) Objeto:O objeto é a instância de uma classe
+. Enquanto a classe é o molde, o objeto é o elemento real criado a partir desse molde (processo chamado de instanciação)
+
+
+c) Atributo:Os atributos representam as características ou o estado de um objeto. Na programação estruturada, eles são equivalentes às variáveis
+
+
+d) Método:Os métodos representam as funcionalidades ou o comportamento dos objetos. Eles são equivalentes às funções da linguagem estruturada. Os métodos podem ou não retornar valores e podem receber parâmetros para realizar tarefas específicas
+
+
+e) Encapsulamento:O encapsulamento consiste no empacotamento de atributos e métodos dentro de uma classe, visando a proteção dos dados. Ele controla a visibilidade e o acesso aos membros da classe através de modificadores:
+Público (+): Permite acesso direto aos atributos e valores.
+
+Privado (-): Garante que apenas a própria classe possa acessar o atributo.
+
+Protegido (#): Um nível intermediário de visibilidade.
+
+2) O construtor é um método especial utilizado exclusivamente para inicializar um objeto no momento da sua criação. Já o método comum representa o comportamento ou as funcionalidades que o objeto pode executar após já ter sido instanciado
+
+O nome do construtor deve ser exatamente igual ao nome da classe. Os métodos, por sua vez, possuem nomes variados definidos pelo programador
+
+O construtor é o primeiro método a ser executado quando uma classe é instanciada através da palavra-chave new. Os métodos são chamados explicitamente pelo programador conforme a necessidade, após o objeto já existir
+
+Métodos podem ou não retornar valores (especificando o tipo ou usando void). Construtores não possuem tipo de retorno
+
+
+3)Os modificadores de acesso fazem parte do conceito de encapsulamento e servem para garantir a proteção dos dados dentro de uma classe. Os principais são:
+
+Público (+): Permite o acesso direto aos atributos e seus valores de qualquer lugar.
+
+Privado (-): Restringe o acesso, garantindo que apenas a própria classe possa acessar aquele atributo.
+
+Protegido (#): Um nível de visibilidade intermediário entre o público e o privado
+
+4)Estes tipos de dados servem para armazenar diferentes naturezas de informação:
+
+String: Utilizada para armazenar texto ou palavras. Exemplo: String nome = "Ricardo";
+
+int: Utilizada para números inteiros. Exemplo: int idade = 21;
+
+boolean (ou bool): Utilizada para valores lógicos de verdadeiro ou falso. Exemplo: Um atributo Emprestado para verificar se um livro está disponível ou não.
+
+5)Nas fontes apresentadas, o método toString() aparece no contexto de tratamento de exceções. Ele serve para converter um objeto (no caso, uma exceção capturada) em uma representação textual, permitindo que o programa exiba detalhes do erro na tela de forma compreensível para o usuário ou programador
+
+6)Quando um atributo é definido como privado, qualquer tentativa de acessá-lo diretamente fora da classe onde ele foi criado é impedida, pois apenas a própria classe possui essa permissão. A forma correta de acessá-lo é através de métodos públicos criados especificamente para essa finalidade, conhecidos como métodos de atribuir e recuperar valores. Dessa forma, a classe mantém o controle sobre como seus dados são lidos ou modificados
