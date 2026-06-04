@@ -1,0 +1,7 @@
+Como as interfaces em Java servem para definir o que uma classe deve fazer (um contrato de comportamento), sem se importar com quem a classe é, as seguintes implementações seriam possíveis:
+
+Exercícios 1, 2 e 3 (Contas): Os métodos sacar(double valor) e depositar(double valor) poderiam virar as interfaces Sacavel e Depositavel (ou uma única interface Rentavel).
+
+Exercício 4 (Veículos): Os métodos acelerar() e frear() poderiam ser movidos para uma interface chamada Dirigivel ou Trafegavel.
+
+Exercício 5 (Pessoas): O método efetuarCompra(double valor) poderia virar uma interface chamada Comprador
