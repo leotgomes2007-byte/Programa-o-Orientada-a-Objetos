@@ -1,0 +1,27 @@
+9
+
+As implementações que podem ser desenvolvidas utilizando Interfaces são os comportamentos/métodos abstratos dos seguintes exercícios:
+
+1. O comportamento de "Emitir Som" (Exercício 4)   
+
+    Como seria com Interface: Em vez de uma classe abstrata Animal , poderíamos criar uma interface chamada EmissorSom com o método emitirSom().  
+
+    Por que funciona: Nem tudo que emite som é um animal (um despertador ou um carro também emitem som). Se usarmos uma interface, qualquer classe de qualquer tipo pode implementar a capacidade de emitir som.
+
+2. Os comportamentos de "Acelerar" e "Frear" (Exercício 6)   
+
+    Como seria com Interface: Poderíamos criar uma interface chamada Controlavel ou Dirigivel contendo os métodos acelerar() e frear().  
+
+    Por que funciona: Carros e motos são veículos, mas brinquedos de controle remoto ou aeronaves também aceleram e freiam. A interface padronizaria esse comportamento para qualquer objeto que se mova.  
+
+3. O comportamento de "Calcular Salário" (Exercício 8)   
+
+    Como seria com Interface: Uma interface chamada Remuneravel com o método calcularSalario().  
+
+    Por que funciona: Prestadores de serviço terceirizados ou estagiários podem não ser diretamente "Funcionários" da empresa (com os mesmos atributos da classe) , mas todos eles passam pelo processo de cálculo de pagamento.  
+
+ Quais NÃO deveriam ser apenas interfaces?
+
+Os exercícios de Conta (Exercícios 1, 5) e Pessoa (Exercício 7) dependem fortemente de atributos compartilhados (como saldo e limite para contas , ou nome e cidade para pessoas ).  
+
+Como as interfaces não podem possuir atributos de instância (variáveis que guardam o estado do objeto), esses exercícios ficam muito melhores como classes abstratas, exatamente como você fez!
