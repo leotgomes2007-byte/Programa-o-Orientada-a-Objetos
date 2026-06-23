@@ -1,3 +1,13 @@
+package server;
+ 
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+ 
+import model.Numero;
+import model.Resposta;
+ 
 public class PrincipalServer {
  
 	public static void main(String[] args) {
@@ -20,6 +30,7 @@ public class PrincipalServer {
 				float resultado = n.getX() + n.getY();
 				res = new Resposta(resultado);
 				out.writeObject(res);
+				
 				cliente.close();
 				
 			}
@@ -28,4 +39,3 @@ public class PrincipalServer {
 		}
 	}
 }
- 
